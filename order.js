@@ -100,10 +100,10 @@ function updateCartTotal() {
     }
 	
 	total = Math.round(total * 100) / 100
-	if( total >=200 && total <=300)
+	if( total >=300 && total <=600)
 	{ discount = ((total*5)/100)
 	}
-	else if(total >300 && total <600)
+	else if(total >600 && total <1000)
 	{ discount = ((total*10)/100)
 	}
 	else if(total >=1000)
